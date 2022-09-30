@@ -16,4 +16,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Auth\Login\" />
+    <Folder Include="Features\Employee\Create\" />
+    <Folder Include="Features\Employee\Delete\" />
+    <Folder Include="Features\Employee\Get\" />
+    <Folder Include="Features\Employee\Update\" />
+  </ItemGroup>
+
 </Project>
